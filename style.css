@@ -33,7 +33,6 @@ h4 {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  /* line-height: 3.1em; */
   font-size: 2em;
   letter-spacing: -2%;
   letter-spacing: -0.05em;
@@ -53,7 +52,6 @@ h4 {
   font-style: normal;
   font-weight: 400;
   text-decoration-line: underline;
-  font-size: 1.58rem;
   line-height: 140%;
   font-feature-settings: "cpsp" on, "case" on;
 }
@@ -81,7 +79,6 @@ h4 {
   font-style: normal;
   font-weight: 600;
   font-size: 2rem;
-  /* line-height: 2.3em; */
   letter-spacing: -0.05rem;
 }
 
@@ -89,8 +86,6 @@ h4 {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
-  /* font-size: 1.5rem; */
-  /* line-height: 1.75em; */
   letter-spacing: -0.02rem;
   font-feature-settings: "tnum" on, "lnum" on;
 }
