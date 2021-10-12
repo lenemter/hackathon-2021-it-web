@@ -1,0 +1,115 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.main_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px; /* Set the fixed height of the footer here */
+  line-height: 70px; /* Vertically center the text there */
+  background-color: #0081c3;
+}
+
+h4 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.navbar_orange {
+  background-color: #ff9b31;
+}
+
+/* ############### */
+/* # Font styles # */
+/* ############### */
+
+.text-title {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 3.1em; */
+  font-size: 2em;
+  letter-spacing: -2%;
+  letter-spacing: -0.05em;
+}
+
+.text-body {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: 140%;
+  font-feature-settings: "cpsp" on, "case" on;
+}
+
+.text-body-link {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: underline;
+  font-size: 1.58rem;
+  line-height: 140%;
+  font-feature-settings: "cpsp" on, "case" on;
+}
+
+.text-navbar {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2.41em;
+  letter-spacing: -0.02rem;
+}
+
+.text-navbar-selected {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2.41em;
+  letter-spacing: -0.02rem;
+}
+
+.text-footer-title {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  /* line-height: 2.3em; */
+  letter-spacing: -0.05rem;
+}
+
+.text-footer-body {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.75em;
+  letter-spacing: -0.02rem;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+
+.text-footer-body-link {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration-line: underline;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.02rem;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+
+.text-dark {
+  color: #222222;
+}
+
+.text-light {
+  color: #fff;
+}
