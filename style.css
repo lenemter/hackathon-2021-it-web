@@ -1,5 +1,5 @@
 :root {
-  --orange: #ff9422;
+  --orange: #fe8515;
   --blue: #0088cd;
   --dark: #111111;
   --light: #ffffff;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
+  margin-bottom: 70px; /* Margin bottom by footer height */
 
   font-family: "Work Sans", sans-serif;
   font-style: normal;
@@ -89,7 +89,7 @@ h4 {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: -0.05rem;
 }
 
@@ -136,4 +136,89 @@ h4 {
   height: 100vh;
   background-image: url("images/van_1.png");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.8); /* Orange overlay */
+}
+
+.white-separator {
+  width: 60px;
+  height: 12px;
+  background-color: var(--background);
+}
+
+.orange-separator {
+  width: 60px;
+  height: 12px;
+  background-color: var(--orange);
+}
+
+.main_images_container {
+  position: relative;
+}
+
+.main_image_2 {
+  position: absolute;
+  top: 70%;
+  left: -20%;
+}
+
+@media (max-width: 976px) {
+  .background-orange-1 {
+    height: 100%;
+  }
+  .main_image_2,
+  .image_2_2 {
+    display: none;
+  }
+  img {
+    width: 90%;
+    padding-bottom: 10%;
+  }
+}
+
+.image_2_2_container {
+  position: relative;
+}
+
+.image_2_2 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+.background-orange-2 {
+  display: inline-block;
+  width: 100%;
+  height: max-content;
+  background-image: url("images/lab_1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21  , 0.8); /* Orange overlay */
+}
+
+
+.img-round {
+  border-radius: 32px !important;
+}
+
+.background-orange-3 {
+  display: inline-block;
+  width: 100%;
+  height: max-content;
+  background-image: url("images/lab_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21  , 0.8); /* Orange overlay */
+}
+
+.lab_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 70px; /* Vertically center the text there */
+  background-color: var(--background);
 }
