@@ -1,117 +1,124 @@
 :root {
-  --orange: #fe8515;
-  --blue: #0088cd;
-  --background: #fafafa;
-  --white: #ffffff;
+    --orange: #fe8515;
+    --blue: #0088cd;
+    --background: #fafafa;
+    --white: #ffffff;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 70px; /* Margin bottom by footer height */
+    margin-bottom: 70px; /* Margin bottom by footer height */
 
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 
-  background-color: var(--background);
+    background-color: var(--background);
 }
 
 .navbar-orange {
-  background-color: var(--orange);
+    background-color: var(--orange);
 }
+
 
 /* ############### */
 /* # Text styles # */
 /* ############### */
 
 .text-title {
-  font-weight: 600;
-  font-size: 1.8rem;
-  letter-spacing: -0.05rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: -0.05rem;
 }
 
 .text-body-bootstrap-override {
-  font-weight: 400;
-  font-size: 1.25em;
-  line-height: 140%;
-  font-feature-settings: "cpsp" on, "case" on;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 140%;
+    font-feature-settings: "cpsp" on, "case" on;
 }
 
 .text-body-link {
-  font-weight: 400;
-  font-size: 1.25em;
-  text-decoration-line: underline;
-  line-height: 140%;
-  font-feature-settings: "cpsp" on, "case" on;
+    font-weight: 400;
+    font-size: 1.25em;
+    text-decoration-line: underline;
+    line-height: 140%;
+    font-feature-settings: "cpsp" on, "case" on;
 }
 
 .text-navbar {
-  font-weight: 500;
-  font-size: 1.4rem;
-  letter-spacing: -0.02rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: -0.02rem;
 }
 
 .text-navbar-selected {
-  font-weight: 600;
-  font-size: 1.4rem;
-  letter-spacing: -0.02rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: -0.02rem;
 }
 
 .text-footer-title {
-  font-weight: 600;
-  font-size: 1.5rem;
-  letter-spacing: -0.05rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -0.05rem;
 }
 
 .text-footer-body {
-  font-weight: 500;
-  font-size: 1.125rem;
-  letter-spacing: -0.02rem;
-  font-feature-settings: "tnum" on, "lnum" on;
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: -0.02rem;
+    font-feature-settings: "tnum" on, "lnum" on;
 }
 
 .text-footer-body-link {
-  font-weight: 500;
-  text-decoration-line: underline;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  letter-spacing: -0.02rem;
-  font-feature-settings: "tnum" on, "lnum" on;
+    font-weight: 500;
+    text-decoration-line: underline;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.02rem;
+    font-feature-settings: "tnum" on, "lnum" on;
 }
 
 .title-lab {
-  display: inline-block;
-  border-bottom: 8px solid var(--orange);
+    display: inline-block;
+    border-bottom: 8px solid var(--orange);
 }
 
 .title-uid {
-  display: inline-block;
-  border-bottom: 8px solid var(--blue);
+    display: inline-block;
+    border-bottom: 8px solid var(--blue);
 }
 
 .separator-white {
-  width: 60px;
-  height: 12px;
-  background-color: var(--white);
+    width: 60px;
+    height: 12px;
+    background-color: var(--white);
 }
 
 .separator-orange {
-  width: 60px;
-  height: 12px;
-  background-color: var(--orange);
+    width: 60px;
+    height: 12px;
+    background-color: var(--orange);
+}
+
+.separator-blue {
+    width: 60px;
+    height: 12px;
+    background-color: var(--blue);
 }
 
 p {
-  text-indent: 2rem;
+    text-indent: 2rem;
 }
 
 ul {
-  margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 /* ############### */
@@ -119,36 +126,58 @@ ul {
 /* ############### */
 
 .background-lab-1 {
-  display: inline-block;
-  width: 100%;
-  height: max(100vh, 800px);
-  background-image: url("images/van_1.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.7); /* Orange overlay */
+    display: inline-block;
+    width: 100%;
+    height: max(100vh, 800px);
+    background-image: url("images/van_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.7); /* Orange overlay */
 }
 
 .background-lab-2 {
-  display: inline-block;
-  width: 100%;
-  height: max-content;
-  background-image: url("images/lab_1.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.8); /* Orange overlay */
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+    background-image: url("images/lab_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.8); /* Orange overlay */
 }
 
 .background-lab-3 {
-  display: inline-block;
-  width: 100%;
-  height: max-content;
-  background-image: url("images/lab_4.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.8); /* Orange overlay */
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+    background-image: url("images/lab_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.8); /* Orange overlay */
+}
+
+.background-uid-1 {
+    display: inline-block;
+    width: 100%;
+    height: max(100vh, 800px);
+    background-image: url("images/van_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 136, 205, 0.7); /* Blue overlay */
+}
+
+.background-uid-2 {
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+    background-image: url("images/lab_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 136, 205, 0.8); /* Blue overlay */
 }
 
 /* ########## */
@@ -156,37 +185,39 @@ ul {
 /* ########## */
 
 .main_images_container {
-  position: relative;
+    position: relative;
 }
 
 .main_image_2 {
-  position: absolute;
-  top: 70%;
-  left: -20%;
+    position: absolute;
+    top: 70%;
+    left: -20%;
 }
 
 @media (max-width: 976px) {
-  .background-lab-1 {
-    height: 100%;
-  }
-  .main_image_2,
-  .image_2_2 {
-    display: none;
-  }
-  img {
-    width: 90%;
-    padding-bottom: 10%;
-  }
+    .background-lab-1 {
+        height: 100%;
+    }
+
+    .main_image_2,
+    .image_2_2 {
+        display: none;
+    }
+
+    img {
+        width: 90%;
+        padding-bottom: 10%;
+    }
 }
 
 .image_2_2_container {
-  position: relative;
+    position: relative;
 }
 
 .image_2_2 {
-  position: absolute;
-  top: 50%;
-  left: 70%;
+    position: absolute;
+    top: 50%;
+    left: 70%;
 }
 
 /* ########### */
@@ -194,19 +225,19 @@ ul {
 /* ########### */
 
 .main_footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 70px; /* Set the fixed height of the footer here */
-  line-height: 70px; /* Vertically center the text there */
-  background-color: var(--blue);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px; /* Set the fixed height of the footer here */
+    line-height: 70px; /* Vertically center the text there */
+    background-color: var(--blue);
 }
 
 .lab_footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 70px; /* Vertically center the text there */
-  background-color: var(--background);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 70px; /* Vertically center the text there */
+    background-color: var(--background);
 }
