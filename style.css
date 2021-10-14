@@ -121,7 +121,7 @@ ul {
 .background-lab-1 {
   display: inline-block;
   width: 100%;
-  height: max(100vh, 1080px);
+  height: max(100vh, 800px);
   background-image: url("images/van_1.png");
   background-repeat: no-repeat;
   background-position: center center;
