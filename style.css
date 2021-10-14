@@ -1,8 +1,8 @@
 :root {
   --orange: #fe8515;
   --blue: #0088cd;
-  --dark: #111111;
-  --light: #ffffff;
+  /* --dark: #111111;
+  --light: #ffffff; */
   --background: #ffffff;
 }
 
@@ -15,8 +15,10 @@ html {
 body {
   margin-bottom: 70px; /* Margin bottom by footer height */
 
-  font-family: "Work Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
+
+  box-sizing: border-box;
 }
 
 .main_footer {
@@ -43,82 +45,71 @@ h4 {
 /* ############### */
 
 .text-title {
-  font-family: "Work Sans", sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 2em;
   letter-spacing: -2%;
   letter-spacing: -0.05em;
 }
 
-.text-body-custom {
-  font-weight: 400;
-  font-size: 1.3em;
+#bootstrap-overrides.text-body {
+  font-weight: normal;
+  font-size: 20px;
   line-height: 140%;
+  display: flex;
+  align-items: center;
   font-feature-settings: "cpsp" on, "case" on;
 }
 
 .text-body-link {
-  font-family: "Work Sans", sans-serif;
-  font-style: normal;
   font-weight: 400;
+  font-size: 1.25em;
   text-decoration-line: underline;
   line-height: 140%;
   font-feature-settings: "cpsp" on, "case" on;
 }
 
 .text-navbar {
-  font-family: "Work Sans", sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 2.41em;
+  font-size: 1.4rem;
   letter-spacing: -0.02rem;
 }
 
 .text-navbar-selected {
-  font-family: "Work Sans", sans-serif;
-  font-style: normal;
   font-weight: 600;
-  font-size: 1.2rem;
-  line-height: 2.41em;
+  font-size: 1.4rem;
+  /* line-height: 2.41em; */
   letter-spacing: -0.02rem;
 }
 
 .text-footer-title {
-  font-family: "Work Sans", sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: -0.05rem;
 }
 
 .text-footer-body {
-  font-family: "Work Sans", sans-serif;
-  font-style: normal;
   font-weight: 500;
+  font-size: 1.125rem;
   letter-spacing: -0.02rem;
   font-feature-settings: "tnum" on, "lnum" on;
 }
 
 .text-footer-body-link {
-  font-family: "Work Sans", sans-serif;
-  font-style: normal;
   font-weight: 500;
   text-decoration-line: underline;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   letter-spacing: -0.02rem;
   font-feature-settings: "tnum" on, "lnum" on;
 }
 
-.text-dark {
+/* #bootstrap-overrides.text-dark {
   color: var(--dark);
 }
 
-.text-light {
+#bootstrap-overrides.text-light {
   color: var(--light);
-}
+} */
 
 .title-lab {
   display: inline-block;
@@ -195,9 +186,8 @@ h4 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21  , 0.8); /* Orange overlay */
+  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.8); /* Orange overlay */
 }
-
 
 .img-round {
   border-radius: 32px !important;
@@ -211,7 +201,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21  , 0.8); /* Orange overlay */
+  box-shadow: inset 0 0 0 1000px rgba(254, 133, 21, 0.8); /* Orange overlay */
 }
 
 .lab_footer {
